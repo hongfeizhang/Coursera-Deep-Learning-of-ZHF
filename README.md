@@ -9,7 +9,7 @@ Week 1
 
 Improvise a Jazz Solo with an LSTM Network
 
-![image](https://github.com/hongfeizhang/Coursera-Deep-Learning-of-ZHF/blob/master/image/1.PNG)
+![image](https://github.com/hongfeizhang/Coursera-Deep-Learning-of-ZHF/blob/master/images/1.PNG)
 
 问题：缺少music21 
 
@@ -19,10 +19,10 @@ Improvise a Jazz Solo with an LSTM Network
 Week2
 Operations on word vectors
 
-![image](https://github.com/hongfeizhang/Coursera-Deep-Learning-of-ZHF/blob/master/image/2.png)
+![image](https://github.com/hongfeizhang/Coursera-Deep-Learning-of-ZHF/blob/master/images/2.png)
 
 问题：gbk 编码
 
 解决: 找到w2v_utils.py 添加encoding='utf-8'
 
-![image](https://github.com/hongfeizhang/Coursera-Deep-Learning-of-ZHF/blob/master/image/3.png)
+![image](https://github.com/hongfeizhang/Coursera-Deep-Learning-of-ZHF/blob/master/images/3.png)
