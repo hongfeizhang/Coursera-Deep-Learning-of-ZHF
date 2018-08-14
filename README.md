@@ -7,8 +7,14 @@ conda 4.5.9
 默认Anaconda 常规环境已具备，包括numpy tensorflow keras等常规包  
 
 Course 1  
+Week 2  
 Planar data classification with one hidden layer  包括后面的多个作业都有类似该问题  
-![image](https://github.com/hongfeizhang/Coursera-Deep-Learning-of-ZHF/blob/master/images/4.PNG)  
+```python
+# Visualize the data:
+plt.scatter(X[0, :], X[1, :], c=Y, s=40, cmap=plt.cm.Spectral);
+
+ValueError: c of shape (1, 400) not acceptable as a color sequence for x with size 400, y with size 400
+```
 问题：ValueError: c of shape (1, 400) not acceptable as a color sequence for x with size 400, y with size 400  
 解决：改为 
 ```python
@@ -27,7 +33,11 @@ Improvise a Jazz Solo with an LSTM Network
 
 Week2  
 Operations on word vectors  
-![image](https://github.com/hongfeizhang/Coursera-Deep-Learning-of-ZHF/blob/master/images/2.png)  
+```python
+words, word_to_vec_map = read_glove_vecs('data/glove.6B.50d.txt')
+
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x93 in position 3136: illegal multibyte sequence
+```
 问题：gbk 编码  
 解决: 找到w2v_utils.py 添加encoding='utf-8'   
 ```python
